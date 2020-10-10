@@ -9,4 +9,8 @@ export default defineConfig({
     { path: '/user', component: '@/pages/user' },
     { path: '/hooks', component: '@/pages/hooks' },
   ],
+  dva: {
+    immer: true,
+    hmr: false
+  }
 });
