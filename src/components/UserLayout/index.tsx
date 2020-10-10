@@ -1,7 +1,7 @@
 import React from 'react'
 import ReduxHooks from '@/utils/ReduxHooks'
-import UserSearch from '../UserSearch'
-import UserList from '../UserList'
+import UserSearch from './UserSearch'
+import UserList from './UserList'
 
 const UserLayout = () => {
   return (
