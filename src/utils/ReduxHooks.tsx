@@ -19,7 +19,7 @@ type ActionType = {
 }
 
 // 定义reducer分发规则
-const reducer = (state: StateType, action: ActionType): StateType => {
+const reducer = (state: StateType = initState, action: ActionType): StateType => {
   switch (action.type) {
     case 'UPDATE_SEARCH':
       return {

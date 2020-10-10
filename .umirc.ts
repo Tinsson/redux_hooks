@@ -7,5 +7,6 @@ export default defineConfig({
   routes: [
     { path: '/', component: '@/pages/index' },
     { path: '/user', component: '@/pages/user' },
+    { path: '/hooks', component: '@/pages/hooks' },
   ],
 });

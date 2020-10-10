@@ -7,7 +7,7 @@ interface User {
   phone: string,
 }
 
-interface StateType {
+export interface StateType {
   searchWords: string,
   userList: User[]
 }
@@ -22,7 +22,7 @@ type ActionType = {
 
 // 创建初始化state，dispatch
 const initState: StateType = {
-  searchWords: '',
+  searchWords: 'test',
   userList: []
 }
 
